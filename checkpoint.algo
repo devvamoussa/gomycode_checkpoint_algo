@@ -5,11 +5,11 @@ BEGIN
     Write("entre une phrase:")
     Read(sentense)
     lg_p:= len(sentense)
-    nb_p:=0
+    nb_m:=0
     nb_v:=0
     FOR i FROM 1 TO lg_p STEP step  DO
         IF Mid(sentense, i, 1):=" " THEN
-            nb_p:= nb_p+1
+            nb_m:= nb_m+1
         ELSE
             Mid(Bla, i, 1) := "a" ou Mid(Bla, i, 1) := "e" ou 
             Mid(Bla, i, 1) := "i" ou Mid(Bla, i, 1) := "o" ou 
@@ -18,6 +18,6 @@ BEGIN
         END_IF
     END_FOR
     Write("la longueure de la phrase est: ", lg_p)
-    Write("le nombre de de mots dans cette phrase est: ", nb_p)
+    Write("le nombre de de mots dans cette phrase est: ", nb_m)
     Write("le nombre de voyelles dans cette phrase est: ", nb_v)
 END
