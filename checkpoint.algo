@@ -1,6 +1,6 @@
 ALGORITHM sentense
 VAR
-    nb_p,nb_v,i,lg_p,sentense:INTEGER
+    nb_m,nb_v,i,lg_p,sentense:INTEGER
 BEGIN
     Write("entre une phrase:")
     Read(sentense)
