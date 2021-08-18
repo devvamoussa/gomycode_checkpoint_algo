@@ -1,0 +1,134 @@
+/* font-family: 'Montserrat', sans-serif*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fefefe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    
+}
+.container{
+    display: flex;
+    border-radius:3px;
+    box-shadow: 3px 6px 16px 5px rgba(0,0,0,0.33);
+    width: 40rem;
+    /* transition: ease-in-out .3s; */
+    
+}
+.containe{
+    border-radius:3px;
+    
+}
+.contents_right{
+    background-color: #fefefe;
+    text-align: center;
+    width: 50%;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* transition: ease-in-out .3s; */
+    
+}
+.icone{
+    display: flex;
+    justify-content: center;
+    margin-left: 5px;
+}
+.content{
+    margin: 10px;
+    margin-top: 30px;
+}
+input{
+    margin: 8px;
+    width: 15rem;
+    height: 2rem;
+}
+button{
+    background-color: #FC4537;
+    width: 7rem;
+    height: 2rem;
+    border-radius: 20rem;
+    color: #fefefe;
+    border:2px solid  #fefefe;
+    cursor: pointer;
+}
+.contents_left{
+    color: #fefefe;
+    width: 50%;
+    background-color: #FC4537;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+      
+    transition: ease-in-out .3s;
+}
+.button-1{
+    margin: 10px;
+}
+.content .title--1 h1{
+    margin: 15px;
+}
+.icone-1{
+    margin:10px 25px 10px 25px;
+}
+.icone{
+    cursor: pointer;
+    margin: 15px;
+}
+.titles-1{
+    margin: 15px;
+}
+.titles{
+    display: none;
+}
+.titles-1{
+    display: none;
+}
+
+
+.translate--right{
+     
+    transform: translateX(100%);
+
+
+}
+
+.translate--left{
+     
+    transform: translateX(-100%);
+
+
+}
+.input-none{
+    display: block;
+}
+
+.block{
+    display: block;
+}
+.none {
+    text-align: center;
+}
+.none{
+    display: none;
+}
+mousa{
+    display: none;
+}
+
+
+
+
+ /* .container.active .contents_rigth{ 
+    position: absolute;
+    left: 10%;
+
+} */

@@ -1,0 +1,55 @@
+ALGORITHM SommeDistincts
+VAR
+    somme:FLOAT
+    distincts:STACK
+
+BEGIN
+    distincts:=
+    FOR i FROM 0 TO len(tableau_1)-1 STEP step  DO
+        FOR j FROM 0 TO len(tableau_2)-1 STEP step  DO
+            IF (i:=j) THEN
+                BREACK
+            END_IF
+            IF (i!:=j) THEN
+                pass
+            END_IF
+            IF (j:=len(tableau_2)-1) THEN
+                distincts.push(i)
+            END_IF
+        END_FOR
+            
+    END_FOR
+    somme:=0
+    FOR eles FROM 0 TO len(distincts)-1 STEP step  DO
+        somme:=distincts.pop()+somme
+    END_FOR
+END
+
+DEUXIEME METHODE 
+
+ALGORITHM SommeDistincts
+VAR
+    somme:FLOAT
+    distincts:QUEUES
+
+BEGIN
+    distincts:=
+    FOR i FROM 0 TO len(tableau_1)-1 STEP step  DO
+        FOR j FROM 0 TO len(tableau_2)-1 STEP step  DO
+            IF (i:=j) THEN
+                BREACK
+            END_IF
+            IF (i!:=j) THEN
+                pass
+            END_IF
+            IF (j:=len(tableau_2)-1) THEN
+                distincts.push(i)
+            END_IF
+        END_FOR
+            
+    END_FOR
+    somme:=0
+    FOR eles FROM 0 TO len(distincts)-1 STEP step  DO
+        somme:=distincts.pop()+somme
+    END_FOR
+END

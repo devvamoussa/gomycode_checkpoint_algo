@@ -1,0 +1,17 @@
+ALGORITHM Permutation
+VAR
+    x, y, z, a : Integer;
+BEGIN
+    Write('veuillez entre un chiffre')
+        Read(x)
+    Write('veuillez entre un chiffre')
+        Read(y)
+    Write('veuillez entre un chiffre')
+        Read(z)
+    a = x
+    x = y
+    y = z
+    z = a
+
+    Write('la Permutation est: ', x, y, z)
+END
